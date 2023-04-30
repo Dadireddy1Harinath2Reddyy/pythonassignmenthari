@@ -39,3 +39,46 @@ Enter the Number of books  you want belongs to Introduction to Python Pragrammin
 Enter the Number of books  you want belongs to Python Libraries Cookbook : 2
 Enter the Number of books  you want belongs to Data Science in Python  : 2
 The total amount for the books is : 4727.76
+
+
+"""Question 2 - 
+
+Description: Write a program in Python to print the number of unique letters in a string. Only new letters from the string should be counted and not duplicates.
+
+                                  
+
+Input : string1 = "India"
+
+Output : uniqueLetters = i,n,d,a
+
+
+Input : string1 = "Dedication"
+
+Output : uniqueLetters = d,e,i,c,a,t,o,n"""
+
+
+
+
+
+
+string = input("String1 = ")
+string = string.lower()
+set1 = set(string)
+l = len(set1)
+k =1
+print("uniqueLetters = ",end="")
+for s in set1:
+    if k != l:
+        print(s,end=",")
+    else:
+        print(s,end="")
+    k+=1
+
+ ==========
+ |OUTPUT ::|
+ ==========
+
+String1 = Dedication
+uniqueLetters = i,t,e,o,d,n,c,a
+
+
