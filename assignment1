@@ -1,3 +1,25 @@
+"""
+Question 1 - 
+
+Description - Create a small command-line program in Python to calculate the total invoice amount for the below purchases - 
+
+Book - Introduction to Python Programming : Rs 499.00
+
+Book - Python Libraries Cookbook : Rs. 855.00
+
+Book - Data Science in Python : Rs. 645.00
+
+
+Taxes and additional charges are described as details - 
+
+GST : 12%
+
+Delivery Charges : Rs. 250.00
+
+"""
+
+
+
 print("_________Total Invoice__________")
 python = eval(input("Enter the Number of books  you want belongs to Introduction to Python Pragramming : "))
 libraries  = eval(input("Enter the Number of books  you want belongs to Python Libraries Cookbook : "))
