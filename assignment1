@@ -1,0 +1,19 @@
+print("_________Total Invoice__________")
+python = eval(input("Enter the Number of books  you want belongs to Introduction to Python Pragramming : "))
+libraries  = eval(input("Enter the Number of books  you want belongs to Python Libraries Cookbook : "))
+Data_Science = eval(input("Enter the Number of books  you want belongs to Data Science in Python  : "))
+total_cost = python * 499 +libraries*855 + Data_Science* 645
+gst = 12  / 100 *total_cost
+delivery_charges = 250
+total = total_cost+delivery_charges+gst
+print(f"The total amount for the books is : {total}")
+
+
+
+output
+
+______Total Invoice__________
+Enter the Number of books  you want belongs to Introduction to Python Pragramming : 2
+Enter the Number of books  you want belongs to Python Libraries Cookbook : 2
+Enter the Number of books  you want belongs to Data Science in Python  : 2
+The total amount for the books is : 4727.76
